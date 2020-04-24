@@ -9,7 +9,7 @@ plt.style.use('seaborn')
 
 def evalute_model_performance(model,model_name,X,y,df_result):
     plot_confusion_matrix(df_result,model_name)
-    acc_report = classification_report(df_result.TrueClass, df_result.Predicted,target_names =['Rejected', 'Approved'])
+    acc_report = classification_report(df_result.TrueClass, df_result.Predicted,target_names =['Negative', 'Positive'])
     print(acc_report)
     try:
         plot_ROC(model, model_name, X, y)
@@ -17,11 +17,11 @@ def evalute_model_performance(model,model_name,X,y,df_result):
         print('Could not print ROC AUC curve.')
 
 
-def plot_confusion_matrix(df,title,labels = ['Rejected', 'Approved'],set_type = 'Validation'):
+def plot_confusion_matrix(df,title,labels = ['Negative', 'Positive'],dataset_type = 'Validation'):
     conf_matrix = confusion_matrix(df.TrueClass, df.Predicted)
     plt.figure(figsize=(8, 8))
     sns.heatmap(conf_matrix, xticklabels=labels, yticklabels=labels, annot=True, fmt="d");
-    plt.title('{0} - Confusion matrix - {1} set'.format(title,set_type), fontsize = 20)
+    plt.title('{0} - Confusion matrix - {1} set'.format(title,dataset_type), fontsize = 20)
     plt.xlabel('Predicted class')
     plt.ylabel('True class')
     plt.show()
