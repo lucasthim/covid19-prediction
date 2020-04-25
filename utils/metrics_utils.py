@@ -26,7 +26,6 @@ def plot_confusion_matrix(df,title,labels = ['Negative', 'Positive'],dataset_typ
     plt.ylabel('True class')
     plt.show()
     return conf_matrix.ravel()
-
     
 
 def plot_ROC(model,model_name,X_test,y_test):
