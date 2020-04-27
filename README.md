@@ -17,9 +17,11 @@ Classification algorithms utilized in the solution:
 This novel consists on the following approach:
 - Remove the least amount of rows and columns in order to eliminate "holes" of missing values in the dataset.
 - Execute a Grid Search with Cross Validation to tune models hyperparameters and obtain preliminare results.
-- Execute a Recursive Feature Elimination (RFE) with Cross Validation. 
-- Test models after RFE-CV without tuning hyper parameters.
+- Visualize feature weights with feature_importance of linear models and SHAP values of non-linear models.
+- Execute a Recursive Feature Elimination (RFE) with Cross Validation. Test models after RFE-CV without tuning hyper parameters.
+- Visualize feature weights with feature_importance of linear models and SHAP values of non-linear models.
 - Choose variables to eliminate and execute another Grid Search with remaining variables
+- Visualize feature weights with feature_importance of linear models and SHAP values of non-linear models.
 
 
 Next steps:
