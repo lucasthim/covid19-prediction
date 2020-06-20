@@ -1,5 +1,5 @@
-# covid19-prediction
-Predict if a patient has the SarsCov-2 (COVID-19) virus based on some variables.
+# COVID-19 Diagnosis Through Clinical Variables
+Predict if a patient has the SarsCov-2 virus based on some clinical variables.
 
 Original dataset comes from a Kaggle Competition held by Einstein Data4u. It can be found at: 
 https://www.kaggle.com/dataset/e626783d4672f182e7870b1bbe75fae66bdfb232289da0a61f08c2ceb01cab01/tasks?taskId=645
