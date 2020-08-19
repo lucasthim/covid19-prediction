@@ -5,7 +5,7 @@ Original dataset comes from a Kaggle Competition held by Einstein Data4u. It can
 https://www.kaggle.com/dataset/e626783d4672f182e7870b1bbe75fae66bdfb232289da0a61f08c2ceb01cab01/tasks?taskId=645
 
 
-My goal is to propose an efficient and also transparent/interpretable ML solution to the correct predicition of suspicious covid-19 cases.
+Our goal is to propose an efficient and also transparent/interpretable ML solution to the correct predicition of suspicious covid-19 cases.
 
 Secondary goal will be to eliminate features while keeping the preditive power of the solution.
 
@@ -22,8 +22,3 @@ This novel consists on the following approach:
 - Visualize feature weights with feature_importance of linear models and SHAP values of non-linear models.
 - Choose variables to eliminate and execute another Grid Search with remaining variables
 - Visualize feature weights with feature_importance of linear models and SHAP values of non-linear models.
-
-
-Next steps:
-- Impute missing values with the Miss Forest algorithm.
-- Optimization with some Evolutionary Algorithm (PSO, GA or DE)
