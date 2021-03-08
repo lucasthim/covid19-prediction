@@ -26,7 +26,8 @@ Specific steps adopted on this novel:
 - Visualize feature weights with feature_importance of linear models and SHAP values of non-linear models.
 
 # About the original paper
-## DOI:10.48011/asba.v2i1.1590
+
+Link: https://doi.org/10.48011/asba.v2i1.1590
 
 Abstract:
 
