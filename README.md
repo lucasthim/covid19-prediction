@@ -1,10 +1,8 @@
 # Interpretable Machine Learning for COVID-19 Diagnosis Through Clinical Variables
 
-Predict if a patient has the SarsCov-2 virus based on some clinical variables.
+The main goal is to propose an efficient and also transparent/interpretable ML solution for the diagnosis of suspicious COVID-19 cases, based on some clinical variables.
 
-Our goal is to propose an efficient and also transparent/interpretable ML solution to the correct predicition of suspicious covid-19 cases.
-
-Secondary goal will be to eliminate features while keeping the preditive power of the solution.
+Secondary goal will be to eliminate least important features while keeping the preditive power of the solution.
 
 Classification algorithms utilized in the solution:
 - Random Forest
